@@ -6,6 +6,9 @@
 
 The program consists of 3 major modules .i.e rover.js, input.js and validateBoundaries.js.
 
+### cardinalPointsDictionary.js
+- This file is essentially an object lateral that stores the permutations of the rover movement based on the given commands.
+
 ### rover.js
 
 - This is the entry function that accepts the input file (mainInput.txt) and have all the consolidated logic through the calls of input.js and validateBoundaries.js. It first calls readInput function in the input.js file to process the text coming from mainInout.txt then using the processed inputs it checks if the command is 'M', if true it then checks if the move is within the boundaries using validateBoundaries.js, if the move is outside the boundaries it throws an error and prints it in the console, if the move is within the boundaries it then moves the rover and go to the next command.
