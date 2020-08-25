@@ -39,8 +39,6 @@ npm install
 
 include the rover commands in the 'mainInput.txt' file under the root folder
 
-## Run the app
-
 ## This command will print the results on your console.
 
 npm start
