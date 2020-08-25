@@ -1,0 +1,29 @@
+{
+  "name": "mars-rover",
+  "version": "1.0.0",
+  "description": "next45 challenge",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "babel-node app.js --experimental-modules",
+    "test": "npx mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SitCode1993/Mars-rover.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SitCode1993/Mars-rover/issues"
+  },
+  "homepage": "https://github.com/SitCode1993/Mars-rover#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.2"
+  }
+}
