@@ -4,7 +4,7 @@
 
 ## Usage
 
-The program consists of 3 major modules .i.e rover.js, input.js and validateBoundaries.js.
+The program consists of 4 major modules .i.e cardinalPointsDictionary, rover.js, input.js and validateBoundaries.js.
 
 ### cardinalPointsDictionary.js
 - This file is essentially an object lateral that stores the permutations of the rover movement based on the given commands.
